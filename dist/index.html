@@ -17,14 +17,18 @@
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container px-5">
-                <a class="navbar-brand" href="#">Phosware Computing</a>
+                <a class="navbar-brand" href="#">
+                  <!--Phosware Computing -->
+                  <img src="assets/phosware-white-logo-1.png" alt="Phosware Computing Logo" style="max-width: 150px; height: auto;">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="/index.html">Home</a></li>           
                         <li class="nav-item"><a class="nav-link" href="#enquiries">Contact</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#enquiries">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#faqs">FAQ</a></li>
                        <!-- <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>-->
                     </ul>
                 </div>
@@ -120,7 +124,7 @@
                             </li>
                             <li class="mb-2">
                                 <i class="bi bi-check text-primary"></i>
-                                Work experience (1-5 years preferred but not required)
+                               Work Experience? (while prior work experience may be helpful, it is not required)
                             </li>
                         </ul>
                        </p>
@@ -138,21 +142,36 @@
                                     <i class="bi bi-check text-primary"></i>
                                     Fridays 10am - 12:00 noon and Saturdays 11am - 1pm
                                 </li>
+                                <li class="mb-2"></li>
+                                    <i class="bi bi-check text-primary"></i>
+                                    Cohort A - October 4th, 5th, 11th and 12th
+                                </li>
+                                <li class="mb-2"></li>
+                                    <i class="bi bi-check text-primary"></i>
+                                    Cohort B  - October 18th, 19th, 25th and 26th
+                                </li>
                             </ul>
                         </p>
                         <h2 class="h5 fw-bolder">Venue</h2>
                         <p>Cafe One, Ikeja Town Square. 131 Obafemi Awolowo Way, Alausa, Ikeja 101233, Lagos. <a class="text-decoration-none" href="https://maps.app.goo.gl/fhuZPYGjcApqbDZC6" target="_blank">Get directions</a></p>
+                        <p>To secure your seat, click the Pay Now link. If you're not ready to commit, you can express your interest by clicking the Join Waitlist link.</p>
                         <br/>
-                
-                        <a class="btn btn-warning btn-lg px-4 me-sm-3" href="https://paystack.com/pay/psm1" target="_blank">
-                           Pay Now
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                        <!--<span>OR </span> -->
-                        <a class="btn btn-primary btn-lg px-4 me-sm-3" href="https://docs.google.com/forms/d/e/1FAIpQLSftWMV0cK1bdCcJtp0L2A-dsUCoGVpmXPBqx3ozmdqSTzQLxg/viewform?usp=sf_link" target="_blank">
-                            Join Waitlist
-                             <!--<i class="bi bi-arrow-right"></i>-->
-                         </a>
+                        <div class="d-flex justify-content-between">
+                            <a class="btn btn-warning btn-lg px-4 me-sm-3" href="https://paystack.com/pay/psm1" target="_blank">
+                            Pay Now
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                            <!--<span>OR </span> -->
+                            <a class="btn btn-primary btn-lg px-4 ms-auto" href="https://docs.google.com/forms/d/e/1FAIpQLSftWMV0cK1bdCcJtp0L2A-dsUCoGVpmXPBqx3ozmdqSTzQLxg/viewform?usp=sf_link" target="_blank">
+                                Join Waitlist
+                                <!--<i class="bi bi-arrow-right"></i>-->
+                            </a>
+                         </div>
+                         <!-- Paystack Logo Section -->
+                        <div class="text-center mt-3">
+                            <p class="small text-muted">Payments are securely processed by:</p>
+                            <img src="assets/paystack-logo-1.png" alt="Paystack Logo" style="max-width: 150px;">
+                        </div>
                     </div>
                     <div class="col-lg-6 mb-5 mb-lg-0">
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
@@ -331,7 +350,7 @@
             </div>
         </section>
         <!-- Testimonials section-->
-        <section class="py-5 border-bottom">
+        <section class="py-5 border-bottom" id="testimonials">
             <div class="container px-5 my-5 px-5">
                 <div class="text-center mb-5">
                     <h2 class="fw-bolder">Customer testimonials</h2>
@@ -353,13 +372,36 @@
                             </div>
                         </div>
                         <!-- Testimonial 2-->
-                        <div class="card">
+                        <div class="card mb-4">
                             <div class="card-body p-4">
                                 <div class="d-flex">
                                     <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
                                     <div class="ms-4">
                                         <p class="mb-1">Having worked with multiple teams, I can confidently say this team follows true Scrum practices. They excel at standups, retros, and sprint planning, consistently delivering on their commitments. The team embodies the Scrum values of commitment, courage, focus, openness, and respect. Much of this success is due to Tobi’s leadership as a Scrum Master, keeping the team focused and collaborative. We’re fortunate to have him guiding the team!</p>
                                         <div class="small text-muted">- Heather, Florida, US</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial 3-->
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <p class="mb-1">During our time together, Oluwatobi demonstrated open-mindedness, diligence, and a strong focus on helping our team grow and deliver. His expertise in Agile was invaluable, enabling the recovery of a delayed project while future-proofing the team’s backlog and sprints through well-established processes and clearly defined responsibilities.</p>
+                                        <div class="small text-muted">- Danilo, P. Brazil</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <p class="mb-1">Thank you Oluwatobi! You helped me pass!</p>
+                                        <div class="small text-muted">- Michael P. Philippines</div>
                                     </div>
                                 </div>
                             </div>
@@ -373,23 +415,158 @@
             <div class="container px-5 my-5 px-5">
                 <div class="text-center mb-5">
                   <!--  <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div> -->
-                   <!-- <h2 class="fw-bolder">Get in touch</h2> -->
-                    <!--<p class="lead mb-0">We'd love to hear from you</p> -->
+                    <h2 class="fw-bolder">Meet your coach</h2> 
+                    <p class="lead mb-0">Oluwatobi Akinseye</p>
                 </div>
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-6">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                       
+               
+            </div>
+            <div class="container mt-4">
+                <div class="row">
+                  <div class="col-md-5">
+                    <img src="assets/about-img-1-update.jpg" alt="Image" class="img-fluid" style="max-width: 100%; height: auto;">
+                  </div>
+                  <div class="col-md-7 d-flex flex-column justify-content-center">
+                    <p>With a rich background spanning over a decade in software engineering and management, I bring a wealth of experience to the table. For the past five years, I've not only built and managed globally distributed high-performing teams but also championed software engineering best practices in over 50 US based organizations. </p>
+                    <p>As a Technical Delivery Manager at <a class="text-decoration-none" href="https://www.andela.com/">Andela</a>, I had the opportunity to train and implement Scrum and engineering best practices for clients such as <a class="text-decoration-none" href="https://izea.com/" target="_blank">IZEA</a>,  <a class="text-decoration-none" href="https://www.leveltenenergy.com/" target="_blank">LevelTen Energy</a>, and <a class="text-decoration-none" href="https://www.fluxx.io/" target="_blank">Fluxx.</a> This role further honed my expertise in fostering agile environments and driving engineering excellence.</p>  
+                    <p>As a  <a class="text-decoration-none" href="https://www.scrum.org/user/548303" target="_blank"> Professional Scrum Master </a> and agile advocate, I thrive in collaborative environments focused on Cloud computing, DevOps, and Site Reliability Engineering (SRE). Along with being a certified Professional Scrum Master and Product Owner, I hold three AWS certifications: Solutions Architect Associate, SysOps Administrator Associate,
+                         and DevOps Engineer Professional. These credentials help me combine agile practices with technical expertise to drive team success.</p>
+                    <p>My dedication lies in fostering environments where innovation thrives, leveraging the latest technologies to drive continuous improvement. I'm committed to simplifying complex processes and fostering a culture of learning within teams. </p>
+                    
+                    <p>To learn more about me and the work I've done, please view my <a class="text-decoration-none" href="https://www.linkedin.com/in/oluwatobiakinseye" target="_blank">LinkedIn profile.</a></p>
+                    <div class="text-center mt-4">
+                       <!--- <p class="fw-bold">Certifications:</p> -->
+                        <img src="assets/psm-1-badge.jpg" alt="Scrum.org Badge" style="max-width: 150px; height: auto; margin: 0 10px;">
+                        <img src="assets/pspo-badge.jpg" alt="AWS Badge" style="max-width: 150px; height: auto; margin: 0 10px;">
                     </div>
+                  </div>
                 </div>
             </div>
         </section>
+        
+        <!--FAQs-->
+        <section class="py-5 border-bottom" id="faqs">
+            <div class="container my-5">
+                <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+                <div class="accordion" id="faqAccordion">
+        
+                    <!-- FAQ 1 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What is Agile?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Agile is a project management methodology that emphasizes flexibility, collaboration, and iterative development. It focuses on delivering small, functional pieces of a project frequently and adjusting based on feedback.
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- FAQ 2 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What is Scrum?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Scrum is a framework used in Agile that helps teams work together. It encourages teamwork, accountability, and iterative progress toward a well-defined goal. Scrum includes defined roles (Scrum Master, Product Owner, Development Team), events (Sprints, Daily Scrum), and artifacts (Product Backlog, Sprint Backlog).
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- FAQ 3 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Who should attend Agile and Scrum training?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Agile and Scrum training is beneficial for anyone involved in project management, product development, or business processes. Typical attendees include product managers, project managers, software developers, business analysts, and team leaders who want to improve their Agile knowledge and practice.
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- FAQ 4 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                What will I learn in Scrum training?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                In Scrum training, you will learn the Scrum framework, including its principles, roles, and ceremonies. You will also understand how to effectively work within Agile teams, how to facilitate Scrum events, and how to improve product delivery through iterative development.
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- FAQ 5 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Do I need prior experience to take Scrum training?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                No prior experience is required to take Scrum training. The training is suitable for both beginners looking to understand Agile and Scrum and experienced professionals seeking to deepen their knowledge.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FAQ 6 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseFive">
+                               I'm ready to book my seat but unable to use paystack. Are there alternative payment methods?
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Yes, you can reserve your spot by making a direct bank transfer to
+                               <br/>
+                               <br/>
+                               <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                     PHOSWARE COMPUTING 
+                                </li>
+                                <li class="mb-2"></li>
+                                    <i class="bi bi-check text-primary"></i>
+                                     OPAY ACCOUNT - <strong> 611 721 0462</strong>
+                                </li>
+                                </ul>
+                              
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 7 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                              What happens after I make payment?
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                            Once your payment is confirmed, a company representative will contact you to initiate the onboarding process and schedule your classes within 24hrs.
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+
+        <!-- Back to Top Button -->
+        <a href="#top" class="btn btn-primary back-to-top" id="backToTopBtn">
+           <i class="bi bi-arrow-up"></i> Top
+        </a>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
             <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; Phosware Computing 2024 <br/><span class="text-white">info@phoswarecomputing.com</span></p></div>
@@ -403,5 +580,21 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
       <!-- <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>-->
+
+      <!---Live Chat Code Snippet--> <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+            var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+            (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/66f2b49fe5982d6c7bb38bf9/1i8i13579';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+            })();
+      </script>
+   
+   
+     <!--End of Tawk.to Script-->
     </body>
 </html>

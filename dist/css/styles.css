@@ -10838,3 +10838,14 @@ body:before {
   display: none;
   background-color: transparent;
 }
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+  display: none; /* Hidden by default */
+}
+.back-to-top.show {
+  display: block; /* Show the button when scrolling down */
+}
